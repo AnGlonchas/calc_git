@@ -9,6 +9,9 @@ def coseno(angulo):              # Recibe un ángulo en grados.
 def tangente(angulo):            # Recibe un ángulo en grados.
     return math.tan(math.radians(angulo))  # Calcula la tangente.
 
+def exponencial(x):                # Calcula la función exponencial.
+    return math.exp(x)             # Devuelve e elevado a x.
+
 def sumar(a, b):              # Define la función para sumar.
     return a + b              # Devuelve la suma de los operandos.
 

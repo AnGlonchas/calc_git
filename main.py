@@ -12,6 +12,11 @@ def tangente(angulo):            # Recibe un ángulo en grados.
 def exponencial(x):                # Calcula la función exponencial.
     return math.exp(x)             # Devuelve e elevado a x.
 
+def logaritmo(x):                  # Calcula el logaritmo natural.
+    if x <= 0:                    # Comprueba que x sea positivo.
+        raise ValueError("x debe ser positivo")
+    return math.log(x)            # Devuelve ln(x).
+
 def sumar(a, b):              # Define la función para sumar.
     return a + b              # Devuelve la suma de los operandos.
 

@@ -6,6 +6,9 @@ def seno(angulo):                # Recibe un ángulo en grados.
 def coseno(angulo):              # Recibe un ángulo en grados.
     return math.cos(math.radians(angulo))  # Calcula el coseno.
 
+def tangente(angulo):            # Recibe un ángulo en grados.
+    return math.tan(math.radians(angulo))  # Calcula la tangente.
+
 def sumar(a, b):              # Define la función para sumar.
     return a + b              # Devuelve la suma de los operandos.
 
